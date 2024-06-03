@@ -32,7 +32,7 @@ do
 						echo "JSON file: $json_file" >> report
 						echo "------------------------------------------------------" >> report
 
-						touch --date=$timestamp $folder/$file
+						touch --date=$timestamp $folder/$file -c
 
 				fi
 		done
